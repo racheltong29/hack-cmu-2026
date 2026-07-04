@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+  <g>
+    <rect x="120" y="720" width="1360" height="14" fill="#1c1824"/>
+    <g fill="#1c1824">
+      <rect x="150" y="734" width="16" height="18"/>
+      <rect x="250" y="734" width="16" height="18"/>
+      <rect x="350" y="734" width="16" height="18"/>
+      <rect x="450" y="734" width="16" height="18"/>
+      <rect x="550" y="734" width="16" height="18"/>
+      <rect x="650" y="734" width="16" height="18"/>
+      <rect x="750" y="734" width="16" height="18"/>
+      <rect x="850" y="734" width="16" height="18"/>
+      <rect x="950" y="734" width="16" height="18"/>
+      <rect x="1050" y="734" width="16" height="18"/>
+      <rect x="1150" y="734" width="16" height="18"/>
+      <rect x="1250" y="734" width="16" height="18"/>
+      <rect x="1350" y="734" width="16" height="18"/>
+      <rect x="1420" y="734" width="16" height="18"/>
+    </g>
+  </g>
+  <g id="locomotive">
+    <rect x="560" y="560" width="260" height="130" rx="14" fill="#b3413e"/>
+    <rect x="560" y="500" width="140" height="70" rx="10" fill="#c65450"/>
+    <rect x="585" y="515" width="40" height="30" rx="4" fill="#bfe6f5"/>
+    <rect x="640" y="515" width="40" height="30" rx="4" fill="#bfe6f5"/>
+    <circle cx="620" cy="700" r="34" fill="#241f2b"/>
+    <circle cx="620" cy="700" r="14" fill="#8a8a94"/>
+    <circle cx="740" cy="700" r="34" fill="#241f2b"/>
+    <circle cx="740" cy="700" r="14" fill="#8a8a94"/>
+    <rect x="800" y="600" width="26" height="70" fill="#8a8a94"/>
+    <rect x="330" y="605" width="230" height="85" rx="10" fill="#d9762f"/>
+    <rect x="345" y="620" width="42" height="34" rx="4" fill="#bfe6f5"/>
+    <rect x="405" y="620" width="42" height="34" rx="4" fill="#bfe6f5"/>
+    <rect x="465" y="620" width="42" height="34" rx="4" fill="#bfe6f5"/>
+    <circle cx="380" cy="700" r="26" fill="#241f2b"/>
+    <circle cx="470" cy="700" r="26" fill="#241f2b"/>
+  </g>
+</svg>
