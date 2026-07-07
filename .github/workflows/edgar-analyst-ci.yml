@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    paths: ["edgar-analyst/**"]
+  pull_request:
+    paths: ["edgar-analyst/**"]
+
+jobs:
+  test-and-eval:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: edgar-analyst
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Unit and integration tests
+        run: pytest -v
+
+      # Regression gate: the build fails if retrieval recall@5, MRR, or
+      # citation precision drop below the thresholds in config.py.
+      - name: Eval gate
+        env:
+          EDGAR_LLM_PROVIDER: stub
+        run: python evals/run_evals.py
