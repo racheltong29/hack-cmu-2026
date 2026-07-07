@@ -1,0 +1,15 @@
+{"id": "nova-rev-fy25", "question": "What was NOVA's total revenue in fiscal 2025 and how much did it grow?", "expected_doc_ids": ["NOVA-10K-FY2025-item7"], "expected_keywords": ["20.1", "42"]}
+{"id": "nova-dc-share", "question": "How large is NOVA's Data Center segment and what share of revenue does it represent?", "expected_doc_ids": ["NOVA-10K-FY2025-item7"], "expected_keywords": ["16.3", "81"]}
+{"id": "nova-gm-decline", "question": "Why did NOVA's gross margin decline in fiscal 2025?", "expected_doc_ids": ["NOVA-10K-FY2025-item7"], "expected_keywords": ["61.4", "inventory"]}
+{"id": "nova-china", "question": "How did export controls affect NOVA's sales to China?", "expected_doc_ids": ["NOVA-10K-FY2025-item1a"], "expected_keywords": ["9", "19"]}
+{"id": "nova-risks", "question": "What supply chain and foundry risks does NOVA disclose?", "expected_doc_ids": ["NOVA-10K-FY2025-item1a"], "expected_keywords": ["foundry"]}
+{"id": "nova-customer-conc", "question": "What customer concentration does NOVA report?", "expected_doc_ids": ["NOVA-10K-FY2025-item1", "NOVA-10K-FY2025-item1a"], "expected_keywords": ["31"]}
+{"id": "nova-q1-rev", "question": "What was NOVA's revenue in the first quarter of fiscal 2026?", "expected_doc_ids": ["NOVA-10Q-Q1FY2026-item2"], "expected_keywords": ["6.1", "39"]}
+{"id": "nova-acq", "question": "What acquisition did NOVA announce after the first quarter of fiscal 2026?", "expected_doc_ids": ["NOVA-10Q-Q1FY2026-item2"], "expected_keywords": ["Photonix", "1.1"]}
+{"id": "nova-rd", "question": "How much did NOVA spend on research and development in fiscal 2025?", "expected_doc_ids": ["NOVA-10K-FY2025-item1"], "expected_keywords": ["4.2", "21"]}
+{"id": "bldr-rev-fy25", "question": "What was BLDR's net revenue in fiscal 2025 and how fast did it grow?", "expected_doc_ids": ["BLDR-10K-FY2025-item7"], "expected_keywords": ["4.9", "11"]}
+{"id": "bldr-summit", "question": "How is the Summit Zero brand performing for BLDR?", "expected_doc_ids": ["BLDR-10K-FY2025-item7", "BLDR-10K-FY2025-item1"], "expected_keywords": ["34"]}
+{"id": "bldr-aluminum", "question": "What aluminum cost exposure and hedging does BLDR describe as a risk?", "expected_doc_ids": ["BLDR-10K-FY2025-item1a"], "expected_keywords": ["60", "hedge"]}
+{"id": "bldr-recall", "question": "What impact does BLDR expect from the Trailhead Iced Tea recall?", "expected_doc_ids": ["BLDR-8K-2026-06-item"], "expected_keywords": ["45", "30"]}
+{"id": "bldr-capital", "question": "How much cash did BLDR return to shareholders in fiscal 2025?", "expected_doc_ids": ["BLDR-10K-FY2025-item7"], "expected_keywords": ["520"]}
+{"id": "bldr-netdebt", "question": "What was BLDR's net debt and leverage at the end of fiscal 2025?", "expected_doc_ids": ["BLDR-10K-FY2025-item7"], "expected_keywords": ["2.1", "1.6"]}

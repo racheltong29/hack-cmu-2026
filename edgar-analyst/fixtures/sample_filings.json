@@ -1,0 +1,77 @@
+{
+  "_note": "Synthetic sample filings for offline development, tests, and evals. Numbers and companies are fictional. In a networked deployment, `edgar-analyst ingest --live TICKER` pulls real filings from SEC EDGAR.",
+  "documents": [
+    {
+      "doc_id": "NOVA-10K-FY2025-item1",
+      "ticker": "NOVA",
+      "form_type": "10-K",
+      "section": "Item 1. Business",
+      "period": "FY2025",
+      "source_url": "fixture://NOVA/10-K/FY2025/item1",
+      "text": "Novatek Semiconductor Corporation designs and sells accelerated computing platforms for data centers, autonomous systems, and edge devices. Our products are organized into two segments: Data Center and Edge & Automotive. The Data Center segment, our largest, sells the Helios family of AI accelerators and the NovaLink interconnect fabric. The Edge & Automotive segment sells the Argus system-on-chip for driver assistance platforms. We outsource all wafer fabrication to third-party foundries, principally located in Taiwan, and we depend on a single foundry partner for our most advanced process nodes. As of the end of fiscal 2025 we employed approximately 18,400 people. Our research and development expense in fiscal 2025 was $4.2 billion, representing 21 percent of revenue. We sell through a network of distributors and directly to hyperscale cloud providers; our two largest customers together accounted for 31 percent of fiscal 2025 revenue."
+    },
+    {
+      "doc_id": "NOVA-10K-FY2025-item1a",
+      "ticker": "NOVA",
+      "form_type": "10-K",
+      "section": "Item 1A. Risk Factors",
+      "period": "FY2025",
+      "source_url": "fixture://NOVA/10-K/FY2025/item1a",
+      "text": "Our business faces substantial risks. Supply concentration: we rely on a single advanced-node foundry partner, and any disruption at that foundry, including from geopolitical tension in Taiwan, could materially reduce our ability to ship Helios accelerators. Customer concentration: the loss of either of our two largest customers, which together represented 31 percent of revenue, would materially harm results. Export controls: expanded U.S. export restrictions on advanced AI accelerators reduced our addressable market in China; sales to China declined to 9 percent of revenue in fiscal 2025 from 19 percent in fiscal 2024, and further restrictions could reduce revenue by an additional estimated $1.5 billion annually. Competition: we face intensifying competition from in-house silicon efforts at hyperscale customers. Inventory risk: rapid product transitions, including the transition from Helios-3 to Helios-4, expose us to inventory write-downs; in fiscal 2025 we recorded a $410 million charge for excess Helios-3 inventory."
+    },
+    {
+      "doc_id": "NOVA-10K-FY2025-item7",
+      "ticker": "NOVA",
+      "form_type": "10-K",
+      "section": "Item 7. Management's Discussion and Analysis",
+      "period": "FY2025",
+      "source_url": "fixture://NOVA/10-K/FY2025/item7",
+      "text": "Fiscal 2025 revenue was $20.1 billion, an increase of 42 percent from $14.2 billion in fiscal 2024, driven primarily by Data Center demand for Helios-4 accelerators. Data Center segment revenue was $16.3 billion, up 58 percent year over year, and represented 81 percent of total revenue. Edge & Automotive segment revenue was $3.8 billion, down 3 percent year over year, reflecting a broad automotive inventory correction at our tier-one customers. Gross margin was 61.4 percent in fiscal 2025 compared with 63.8 percent in fiscal 2024; the decline of 2.4 percentage points was driven by the Helios-3 inventory charge and higher advanced packaging costs, partially offset by a richer Data Center mix. Operating income was $6.9 billion, up from $4.6 billion. We generated $7.8 billion of cash flow from operations and ended the year with $11.2 billion in cash and marketable securities. We repurchased $2.0 billion of common stock during the year and paid no dividend. For fiscal 2026 we expect Data Center revenue growth to moderate to a range of 25 to 30 percent as supply of advanced packaging normalizes."
+    },
+    {
+      "doc_id": "NOVA-10Q-Q1FY2026-item2",
+      "ticker": "NOVA",
+      "form_type": "10-Q",
+      "section": "Item 2. Management's Discussion and Analysis",
+      "period": "Q1FY2026",
+      "source_url": "fixture://NOVA/10-Q/Q1FY2026/item2",
+      "text": "First quarter fiscal 2026 revenue was $6.1 billion, up 39 percent from the prior-year quarter. Data Center revenue was $5.2 billion, up 47 percent, on continued Helios-4 ramp; Edge & Automotive revenue was $0.9 billion, up 5 percent, marking a return to growth as automotive inventories normalized. Gross margin improved to 63.1 percent, up 170 basis points sequentially, as Helios-3 inventory headwinds abated. Management noted that lead times for the NovaLink interconnect remain extended at approximately 26 weeks and that advanced packaging capacity is booked through the end of the calendar year. We recorded no material inventory charges in the quarter. Cash flow from operations was $2.4 billion. Subsequent to quarter end, we announced the acquisition of Photonix Systems, a silicon photonics company, for $1.1 billion in cash, expected to close in the third fiscal quarter subject to regulatory approval."
+    },
+    {
+      "doc_id": "BLDR-10K-FY2025-item1",
+      "ticker": "BLDR",
+      "form_type": "10-K",
+      "section": "Item 1. Business",
+      "period": "FY2025",
+      "source_url": "fixture://BLDR/10-K/FY2025/item1",
+      "text": "Boulder Beverage Company manufactures, markets, and distributes non-alcoholic ready-to-drink beverages across North America. Our brand portfolio includes Boulder Sparkling, Trailhead Iced Tea, and the Summit Zero line of zero-sugar energy drinks. We operate 14 bottling facilities and a fleet-based direct-store-delivery network covering roughly 620,000 retail outlets. In fiscal 2025, Summit Zero became our largest brand by revenue for the first time, representing 38 percent of total revenue. We source aluminum cans under multi-year contracts with two suppliers and are exposed to aluminum price fluctuations; we hedge approximately 60 percent of our expected twelve-month aluminum requirements. We employed approximately 9,100 people at fiscal year end."
+    },
+    {
+      "doc_id": "BLDR-10K-FY2025-item7",
+      "ticker": "BLDR",
+      "form_type": "10-K",
+      "section": "Item 7. Management's Discussion and Analysis",
+      "period": "FY2025",
+      "source_url": "fixture://BLDR/10-K/FY2025/item7",
+      "text": "Fiscal 2025 net revenue was $4.9 billion, up 11 percent from $4.4 billion in fiscal 2024. Volume grew 6 percent and favorable price and mix contributed 5 points of growth, led by Summit Zero energy drinks, which grew net revenue 34 percent year over year. Gross margin expanded 90 basis points to 54.2 percent as aluminum hedges and productivity savings more than offset higher freight costs. Operating margin was 21.7 percent, up from 20.6 percent. We generated $1.05 billion in cash flow from operations, invested $310 million in capital expenditures, primarily a new bottling line in Reno, and returned $520 million to shareholders through dividends of $340 million and share repurchases of $180 million. Net debt at year end was $2.1 billion, or 1.6 times adjusted EBITDA. For fiscal 2026 we expect net revenue growth of 6 to 8 percent and continued gross margin expansion of 30 to 50 basis points."
+    },
+    {
+      "doc_id": "BLDR-10K-FY2025-item1a",
+      "ticker": "BLDR",
+      "form_type": "10-K",
+      "section": "Item 1A. Risk Factors",
+      "period": "FY2025",
+      "source_url": "fixture://BLDR/10-K/FY2025/item1a",
+      "text": "Key risks to our business include the following. Input costs: aluminum represents our single largest input cost, and although we hedge approximately 60 percent of twelve-month requirements, sustained price increases would pressure gross margin. Category concentration: our growth increasingly depends on the energy drink category through Summit Zero, which represented 38 percent of revenue; regulatory action on caffeine content or adverse publicity about energy drinks could materially reduce demand. Distribution: we depend on our direct-store-delivery network, and driver shortages or sustained fuel cost inflation would raise operating costs. Customer concentration: our largest retail customer accounted for 17 percent of net revenue. Climate: water availability at certain bottling facilities in the southwestern United States may constrain production during drought conditions."
+    },
+    {
+      "doc_id": "BLDR-8K-2026-06-item",
+      "ticker": "BLDR",
+      "form_type": "8-K",
+      "section": "Item 2.02 Results of Operations",
+      "period": "Q3FY2026",
+      "source_url": "fixture://BLDR/8-K/2026-06/item202",
+      "text": "On June 12, 2026, Boulder Beverage Company announced preliminary third-quarter results and a voluntary recall of certain lots of Trailhead Iced Tea produced at its Modesto facility due to a packaging defect. The company estimates the recall will reduce third-quarter net revenue by approximately $45 million and result in a one-time charge of $30 million. The company reaffirmed its full-year revenue growth guidance of 6 to 8 percent but now expects gross margin expansion at the low end of its 30 to 50 basis point range. The Modesto facility resumed normal production on June 9, 2026."
+    }
+  ]
+}
